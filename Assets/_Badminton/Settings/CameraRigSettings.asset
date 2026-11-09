@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c2f2d65ffdba51418edb19a8270600f, type: 3}
+  m_Name: CameraRigSettings
+  m_EditorClassIdentifier: Badminton.Runtime::Badminton.Cameras.CameraRigSettings
+  distanceBehindBaseline: 7
+  height: 9
+  pitch: 35
+  fieldOfView: 39
+  keepCourtWidthOnNarrowScreens: 1
+  sideMargin: 0.4
+  panLimit: 0.5
+  panFollowFactor: 0.2
+  panSmoothTime: 0.6

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 140c186db656edb418696cf1b02ea8af, type: 3}
+  m_Name: AI_VeryHard
+  m_EditorClassIdentifier: Badminton.Runtime::Badminton.AI.AIDifficulty
+  displayName: "R\u1EA5t kh\xF3"
+  reactionTime: 0.09
+  speedFactor: 1
+  positionError: 0.05
+  timingError: 0.012
+  smashChance: 0.75
+  placement: 0.95
+  lineJudgement: 0.97
+  blunderChance: 0.003

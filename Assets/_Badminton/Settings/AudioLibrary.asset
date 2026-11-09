@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 385e1ae4a66c2044798ad86f92df9881, type: 3}
+  m_Name: AudioLibrary
+  m_EditorClassIdentifier: Badminton.Runtime::Badminton.Audio.AudioLibrary
+  hitSoft: {fileID: 8300000, guid: 62c5fb7e519030045bb35c7e002dd070, type: 3}
+  hitClear: {fileID: 8300000, guid: 94202e667b910764c8b1cf35cadea1fb, type: 3}
+  hitSmash: {fileID: 8300000, guid: 0f661b6feaca87947a6b81aed6240362, type: 3}
+  netHit: {fileID: 8300000, guid: cf4579d4ea888934da5e2c3f156f6b47, type: 3}
+  shuttleLand: {fileID: 8300000, guid: 9e8ad6c0d027d1f48a7973e2e31f585f, type: 3}
+  squeaks:
+  - {fileID: 8300000, guid: 5b161cecc1547894fbe969a7d63a13e3, type: 3}
+  - {fileID: 8300000, guid: ad81fa6e63d686b4ca73440eeb5c413b, type: 3}
+  - {fileID: 8300000, guid: 437da82537ff0084688b99b3dc573ce7, type: 3}
+  crowdLoop: {fileID: 8300000, guid: d6446592ed102d6439a8b51d6086732e, type: 3}
+  cheer: {fileID: 8300000, guid: 117b758818792984fb9e613a4a5eb7a2, type: 3}
+  applause: {fileID: 8300000, guid: fc0cafdb8d8b85842afec13314303772, type: 3}
+  uiClick: {fileID: 8300000, guid: b10472944742b094e8b67b62378bce7b, type: 3}
+  whistle: {fileID: 8300000, guid: 695fc16088d70c34bbb1e0ad6cca6d1d, type: 3}

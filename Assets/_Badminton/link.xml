@@ -1,0 +1,22 @@
+<!--
+  Giữ lại các assembly dùng reflection khi bật Managed Stripping cho WebGL.
+  Unity Gaming Services (Core/Authentication/Multiplayer) và Netcode khởi tạo một số lớp qua reflection;
+  nếu bị strip sẽ lỗi lúc chạy (chỉ thấy trên bản build, không thấy trong Editor).
+-->
+<linker>
+  <assembly fullname="Unity.Services.Core" preserve="all" />
+  <assembly fullname="Unity.Services.Core.Internal" preserve="all" />
+  <assembly fullname="Unity.Services.Core.Registration" preserve="all" />
+  <assembly fullname="Unity.Services.Core.Configuration" preserve="all" />
+  <assembly fullname="Unity.Services.Core.Environments" preserve="all" />
+  <assembly fullname="Unity.Services.Authentication" preserve="all" />
+  <assembly fullname="Unity.Services.Multiplayer" preserve="all" />
+  <assembly fullname="Unity.Services.Wire" preserve="all" />
+  <assembly fullname="Unity.Services.Qos" preserve="all" />
+  <assembly fullname="Unity.Netcode.Runtime" preserve="all" />
+  <assembly fullname="Unity.Networking.Transport" preserve="all" />
+  <assembly fullname="Newtonsoft.Json" preserve="all" />
+  <assembly fullname="Badminton.Core" preserve="all" />
+  <assembly fullname="Badminton.Runtime" preserve="all" />
+  <assembly fullname="Badminton.Networking" preserve="all" />
+</linker>

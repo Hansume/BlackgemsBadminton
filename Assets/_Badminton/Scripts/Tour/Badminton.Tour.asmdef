@@ -1,0 +1,16 @@
+{
+    "name": "Badminton.Tour",
+    "rootNamespace": "Badminton.Tour",
+    "references": [
+        "Badminton.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

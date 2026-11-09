@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c8b10615cbfae479dcb9055c510db6, type: 3}
+  m_Name: TournamentSettings
+  m_EditorClassIdentifier: Badminton.Runtime::Badminton.TournamentMode.TournamentSettings
+  database: {fileID: 11400000, guid: df4d8a89ab5c6194bbca5a5757fb5976, type: 2}
+  aiTiers:
+  - {fileID: 11400000, guid: 9918693d48f722642914580f67dffe13, type: 2}
+  - {fileID: 11400000, guid: 617cf9532ca78c841bf38ac6b80f5588, type: 2}
+  - {fileID: 11400000, guid: dc75e4873d3a4564caebad70435f1f44, type: 2}
+  - {fileID: 11400000, guid: 0ba6f194b84840a4c9c75fe009947793, type: 2}
+  balance:
+    results:
+      ratingScale: 25
+      ratingNoise: 2.5
+      threeGamesEven: 0.42
+      threeGamesLopsided: 0.06
+      loserPointsEven: 17
+      loserPointsLopsided: 10.5
+      loserPointsSpread: 2.8
+      deuceContinue: 0.38
+    difficulty:
+      normalFrom: 40
+      hardFrom: 65
+      veryHardFrom: 85
+    tiers:
+    - name: TITAN 1000
+      level: 1000
+      color: FFC828
+      champion: 12000
+      roundFactor: 0.82
+      qualFinalFactor: 0.5
+      qualFirstFactor: 0.3
+      hasQualifying: 0
+      qualifiers: 4
+      qualifyingDraw: 16
+      directRankFraction: 0.45
+      qualifyingRankFraction: 0
+      playTop10: 0.97
+      playTop32: 0.95
+      playRest: 0.9
+    - name: ZENITH 750
+      level: 750
+      color: 3CC8E6
+      champion: 11000
+      roundFactor: 0.82
+      qualFinalFactor: 0.5
+      qualFirstFactor: 0.3
+      hasQualifying: 0
+      qualifiers: 4
+      qualifyingDraw: 16
+      directRankFraction: 0.55
+      qualifyingRankFraction: 0
+      playTop10: 0.9
+      playTop32: 0.9
+      playRest: 0.9
+    - name: PRISM 500
+      level: 500
+      color: 3CC86E
+      champion: 9200
+      roundFactor: 0.82
+      qualFinalFactor: 0.5
+      qualFirstFactor: 0.3
+      hasQualifying: 0
+      qualifiers: 4
+      qualifyingDraw: 16
+      directRankFraction: 0.7
+      qualifyingRankFraction: 0
+      playTop10: 0.7
+      playTop32: 0.85
+      playRest: 0.9
+    - name: HORIZON 300
+      level: 300
+      color: FF8C3C
+      champion: 7000
+      roundFactor: 0.82
+      qualFinalFactor: 0.5
+      qualFirstFactor: 0.3
+      hasQualifying: 1
+      qualifiers: 4
+      qualifyingDraw: 16
+      directRankFraction: 0.8
+      qualifyingRankFraction: 1
+      playTop10: 0.25
+      playTop32: 0.6
+      playRest: 0.95
+    - name: SPARK 100
+      level: 100
+      color: AAB9D2
+      champion: 5500
+      roundFactor: 0.82
+      qualFinalFactor: 0.5
+      qualFirstFactor: 0.3
+      hasQualifying: 1
+      qualifiers: 4
+      qualifyingDraw: 16
+      directRankFraction: 1
+      qualifyingRankFraction: 1
+      playTop10: 0.05
+      playTop32: 0.3
+      playRest: 0.95
+    finals:
+      name: GRAND FINALS
+      color: E04CFF
+      champion: 14000
+      runnerUp: 11900
+      semifinal: 9800
+      groupThird: 7600
+      groupFourth: 6600
+      field: 8
+    season:
+      bestResults: 10
+      windowWeeks: 52
+      finalsWeek: 50
+      ratingDriftMax: 3
+      ratingDriftGain: 1.6
+      newSeasonRegression: 0.3
+      ratingMin: 20
+      ratingMax: 99
+      calendar:
+      - week: 2
+        name: KESTREL BAY CLASSIC
+        tier: 3
+      - week: 4
+        name: NORTHGATE OPEN
+        tier: 2
+      - week: 7
+        name: AURORA OPEN
+        tier: 0
+      - week: 9
+        name: SILVERPINE CUP
+        tier: 4
+      - week: 9
+        name: MISTRAL BAY OPEN
+        tier: 2
+      - week: 12
+        name: MARIGOLD COAST OPEN
+        tier: 1
+      - week: 14
+        name: IRONWOOD CLASSIC
+        tier: 3
+      - week: 17
+        name: LUMEN CITY OPEN
+        tier: 2
+      - week: 20
+        name: CORAL HARBOR CUP
+        tier: 4
+      - week: 23
+        name: STARFALL OPEN
+        tier: 0
+      - week: 26
+        name: WILLOWMERE CLASSIC
+        tier: 3
+      - week: 29
+        name: BLUE MESA OPEN
+        tier: 2
+      - week: 32
+        name: TEMPEST ISLES OPEN
+        tier: 1
+      - week: 35
+        name: AMBERFIELD CUP
+        tier: 4
+      - week: 35
+        name: PINECREST OPEN
+        tier: 3
+      - week: 38
+        name: HIGHCROFT OPEN
+        tier: 2
+      - week: 41
+        name: CRYSTAL FJORD OPEN
+        tier: 0
+      - week: 44
+        name: REDWATER CLASSIC
+        tier: 3
+      - week: 47
+        name: SUNSPIRE OPEN
+        tier: 1
+    database:
+      singlesPerEvent: 64
+      pairsPerEvent: 48
+      topRating: 95
+      bottomRating: 38
+      curve: 0.6
+      noise: 2
+      seed: 20261108
+    custom:
+      name: "GI\u1EA2I T\xD9Y CH\u1EC8NH"
+      strongerFraction: 0.5
+    mainDraw: 32
+    seeds: 8
+  doubles:
+    humanPriority: 1
+    aiTieMargin: 0.05
+    frontDepth: 2.4
+    backDepth: 4.9
+    defenceDepth: 3.9
+    defenceHalfWidth: 1.35
+    serveDepth: 5.35
+    serveTargetX: 1.5
+    standX: 0.9
+    serverDepth: 2.5
+    receiverDepth: 2.6
+    serverPartnerDepth: 4.6
+    receiverPartnerDepth: 4
+    cameraExtraFov: 3
+  ui:
+    revealFlipOut: 0.12
+    revealFlipIn: 0.14
+    revealGap: 0.22
+    afterMatchDelay: 3
+    postMatchAutoContinue: 3.5
+    advanceDelay: 0.35
+    kitClashThreshold: 0.45

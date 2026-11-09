@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a7d9b370bfaff94abb4dc3c45aca99e, type: 3}
+  m_Name: ShotLibrary
+  m_EditorClassIdentifier: Badminton.Runtime::Badminton.Shots.ShotLibrary
+  clear: {fileID: 11400000, guid: 785c78be399f9da46890b1096edf3dde, type: 2}
+  smash: {fileID: 11400000, guid: 617cc0e7f2909da4ab8913c09704c02d, type: 2}
+  drop: {fileID: 11400000, guid: daccfa703e6babe49b1d44bfe987adb6, type: 2}
+  netShot: {fileID: 11400000, guid: 7befb5007a3ccb841971841aa689d1a6, type: 2}
+  lift: {fileID: 11400000, guid: 34bd540dc33e28943a4502adb9704420, type: 2}
+  serve: {fileID: 11400000, guid: 20dd3e093f367f24fafb014afbc8431f, type: 2}
+  shortServe: {fileID: 11400000, guid: 8bf5ed811abe65343a61339e20c778b4, type: 2}
+  netShotMaxDistance: 2.6
+  blockDepth: 1.5
+  blockScatterMul: 1.5
+  blockSpeed: 25
+  perfectWindow: 0.08
+  sweetSpot: 0.45
+  earlyFloor: 0.35
+  jumpReach: 0.55
